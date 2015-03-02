@@ -20,6 +20,16 @@
             android:name=".menu.ScMenuActivity"
             android:label="@string/title_activity_sc_menu" >
         </activity>
+
+        <!--<receiver android:name=".menu.MenuButton" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />-->
+            <!--</intent-filter>-->
+
+            <!--<meta-data-->
+                <!--android:name="android.appwidget.provider"-->
+                <!--android:resource="@xml/menu_button_info" />-->
+        <!--</receiver>-->
     </application>
 
 </manifest>

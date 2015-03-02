@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     <TextView
+        android:id="@+id/menuTitle"
         android:text="@string/menu_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,45 +37,60 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <Button
+                android:id="@+id/button1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button 1"/>
+                android:text="nix"
+                android:onClick="menuButtonClick"/>
             <Button
+                android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button 2"/>
+                android:text="nix"
+                android:onClick="menuButtonClick"/>
             <Button
+                android:id="@+id/buttonNext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button 3"/>
+                android:text="Next"/>
         </TableRow>
         <TableRow>
             <Button
+                android:id="@+id/button3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button 4"/>
+                android:text="nix"
+                android:onClick="menuButtonClick"/>
             <Button
+                android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button 5"/>
+                android:text="nix"
+                android:onClick="menuButtonClick"/>
             <Button
+                android:id="@+id/buttonPrev"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button 6"/>
+                android:text="Previous"/>
         </TableRow>
         <TableRow>
             <Button
+                android:id="@+id/button5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button 7"/>
+                android:text="nix"
+                android:onClick="menuButtonClick"/>
             <Button
+                android:id="@+id/button6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button 8"/>
+                android:text="nix"
+                android:onClick="menuButtonClick"/>
             <Button
+                android:id="@+id/buttonBack"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button 9"/>
+                android:text="Back"/>
         </TableRow>
      </TableLayout>
 </LinearLayout>
