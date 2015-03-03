@@ -52,7 +52,8 @@
                 android:id="@+id/buttonNext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Next"/>
+                android:text="Next"
+                android:onClick="nextButtonClick"/>
         </TableRow>
         <TableRow>
             <Button
@@ -71,7 +72,8 @@
                 android:id="@+id/buttonPrev"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Previous"/>
+                android:text="Previous"
+                android:onClick="peviousButtonClick"/>
         </TableRow>
         <TableRow>
             <Button
@@ -90,7 +92,8 @@
                 android:id="@+id/buttonBack"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Back"/>
+                android:text="Back"
+                android:onClick="backButtonClick"/>
         </TableRow>
      </TableLayout>
 </LinearLayout>

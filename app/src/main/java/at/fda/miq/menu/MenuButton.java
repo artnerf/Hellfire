@@ -1,6 +1,5 @@
 package at.fda.miq.menu;
 
-import android.content.Context;
 import android.view.View;
 import android.widget.Button;
 
@@ -30,6 +29,10 @@ public class MenuButton  {
 
     public ScMenu.MenuItem getMenuItem(){
         return menuItem;
+    }
+
+    public ScMenu.MenuDir getSubMenu(){
+        return menuItem.nextMenuDir;
     }
 
 }
