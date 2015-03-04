@@ -10,9 +10,9 @@ import android.widget.Button;
 public class MenuButton  {
 
     private Button mButton;
-    private ScMenu.MenuItem menuItem;
+    private DoMenu.MenuItem menuItem;
 
-    public MenuButton(Button button, ScMenu.MenuItem item){
+    public MenuButton(Button button, DoMenu.MenuItem item){
 
         mButton = button;
         menuItem = item;
@@ -27,11 +27,11 @@ public class MenuButton  {
         }
     }
 
-    public ScMenu.MenuItem getMenuItem(){
+    public DoMenu.MenuItem getMenuItem(){
         return menuItem;
     }
 
-    public ScMenu.MenuDir getSubMenu(){
+    public DoMenu.MenuDir getSubMenu(){
         return menuItem.nextMenuDir;
     }
 

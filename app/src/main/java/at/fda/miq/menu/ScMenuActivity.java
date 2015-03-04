@@ -69,7 +69,7 @@ public class ScMenuActivity extends ActionBarActivity {
 
     public void menuButtonClick(View view){
         long longMenuItemId = 0;
-        ScMenu.MenuDir subMenu = null;
+        DoMenu.MenuDir subMenu = null;
         int id = view.getId();
 
         switch (id){
